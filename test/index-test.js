@@ -28,7 +28,7 @@ describe('deli', () => {
       expect(katzDeli).toEqual(["Ada", "Grace", "Kent"]);
     });
   });
-/*
+
   describe('nowServing', () => {
     it('returns the line is empty when no one is on line', () => {
       expect(nowServing([])).toEqual("There is nobody waiting to be served!");
@@ -40,7 +40,7 @@ describe('deli', () => {
       expect(deliLine).toEqual(["Blake", "Avi"]);
     });
   });
-
+/*
   describe('currentLine(line)', () => {
     it('returns "The line is currently empty." if no one is in line', () => {
       expect(currentLine([])).toEqual("The line is currently empty.");
