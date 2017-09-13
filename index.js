@@ -11,3 +11,14 @@ function nowServing(array){
   }
   return `Currently serving ${array.shift()}.`
 }
+
+function currentLine(line){
+  if (line.length === 0) {
+    return "The line is currently empty.";
+  }
+  var stringToReturn = "The line is currently:";
+  for (var i = 0; i < line.length; i++) {
+    stringToReturn += " "+(i+1)+". "+line[i];
+  }
+  return stringToReturn;
+}
